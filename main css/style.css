@@ -1,0 +1,80 @@
+Html,body{
+	height: 100%;
+	background-color: #fcfbf6;
+	font-family: "Roboto condensed", sans-serif;
+
+}
+.global-container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 12px;
+}
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+
+}
+.card-title{
+	font-weight: 10px;
+	padding-top: 10px;
+	background-color: #1c4a7e;
+	border-radius: 14px;
+	color:white;
+}
+	.login-form{
+		width: 380px;
+		height: 450px;
+		margin: 20px;
+		background-color: #dbbf5d !important;
+		border-radius: 10px !important;
+	}
+	.register-form{
+		width: 380px;
+		height: 630px;
+		margin: 20px;
+		background-color: #dbbf5d !important;
+	}
+	.form-select{
+		margin-top: 10px;
+	}
+input[type="email"], 
+input[type="password"]
+input[type="text"]
+{
+	background: #dddfe0;
+	border: 2px solid #0db8de;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+input[type="email"]:focus, 
+input[type="password"]:focus{
+	outline: none;
+	border: none;
+	background: #dddfe0;
+	margin: 0;
+}
+.btn-primary{
+	background: #1c4a7e;
+	font-size: 14px;
+	transform: translateY(15px);
+	border-radius: 10px !important;
+	width: 100%;
+}
+.signup{
+	text-align: center;
+	padding-top: 25px;
+}
+a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+	 color: #4778e0;
+
+}
+#space{
+	padding-left: 5px;
+}
